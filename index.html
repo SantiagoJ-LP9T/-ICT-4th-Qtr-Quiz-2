@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q2</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<style type="text/css">
+	body{
+		background-image: url("https://en.idei.club/uploads/posts/2023-06/1686308041_en-idei-club-p-playstation-background-dizain-pinterest-6.jpg");
+	}
+	div{
+		font-family: Showcard Gothic;
+	}
+	.card {
+  box-shadow: 0 15px 20px 0 rgba(5, 5, 5, 10);
+  max-width: 350px;
+  max-height: 1500px;
+  top: 60%;
+		left: 20%;
+		margin-left: 600px;
+margin-top: 75px;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  max-height: 10%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+</style>
+<div>
+   <form class="modal-content animate" action="/action_page.php" method="post">
+  <div class="mb-3 mt-3">
+<div class="card">
+  <img src="https://live.staticflickr.com/65535/50587242611_30dab00e0e_o.png" alt="Astro">
+  <h1>Welcome!</h1>
+  <p class="title">Login to see your projects!</p>
+  <p>‎</p>
+ <label class="form-check-label">
+ 	<div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+  </div>
+  <div class="mb-3">
+    <label for="pwd" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  </div>
+  <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+    </label>
+    </div></form>
+ <br><br><br>
+ <a href="mainpage.html"><button class="btn btn-success btn-lg">Submit</button></a>
+</div>
+</body>
+</html>
